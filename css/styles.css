@@ -1,21 +1,33 @@
-body {
-  background-color: slateblue;
-}
 body h1 {
-  color: white;
+  color: darkgrey;
+  margin: 0;
+  padding: 0.5em 0 0.5em 0;
+}
+body header {
+  text-align: center;
+  margin-top: 0;
+}
+body .searchbar {
+  width: 40vw;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0 0.5em 0 0.5em;
+  border: 2px solid lightgrey;
+}
+body .searchbar::placeholder {
+  font-weight: 900;
+  font-size: large;
 }
 
-.gallery-space {
+.gallery {
+  max-width: 900px;
   display: grid;
-  grid-gap: 15px;
-  padding: 15px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+  grid-gap: 20px;
+  padding: 20px;
   margin: auto;
-  width: 95%;
   background-color: white;
-}
-
-h1 {
-  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
