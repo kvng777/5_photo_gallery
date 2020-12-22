@@ -1,0 +1,24 @@
+// @import 'utilities/index',
+//         'base/index',
+//         'component/index';
+
+
+body {
+    background-color: slateblue;
+    h1 {
+        color:white;
+    }
+}
+
+.gallery-space {
+    display:grid;
+    grid-gap: 15px;    
+    padding: 15px;
+    margin:auto;
+    width:95%;
+    background-color: white;
+}
+
+h1{
+    color:white;
+}
