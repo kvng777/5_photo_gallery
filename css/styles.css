@@ -1,5 +1,8 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 body h1 {
-  color: darkgrey;
+  color: black;
   margin: 0;
   padding: 0.5em 0 0.5em 0;
 }
@@ -28,6 +31,12 @@ body .searchbar::placeholder {
   padding: 20px;
   margin: auto;
   background-color: white;
+}
+.gallery img {
+  transition: all 0.2s ease-in-out;
+}
+.gallery img:hover {
+  transform: scale(1.1) rotate(-3.7deg);
 }
 
 /*# sourceMappingURL=styles.css.map */

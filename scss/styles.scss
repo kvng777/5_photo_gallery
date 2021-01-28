@@ -1,6 +1,8 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    
     h1 {
-        color:darkgrey;
+        color:black;
         margin:0;
         padding: .5em 0 .5em 0;
     }
@@ -31,4 +33,11 @@ body {
     padding: 20px;
     margin:auto;
     background-color: white;
-}
+    
+    img{
+        transition: all .2s ease-in-out;
+    }
+    img:hover{
+        transform: scale(1.1) rotate(-3.7deg);
+    }
+}    
